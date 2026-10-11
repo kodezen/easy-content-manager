@@ -1,0 +1,37 @@
+.ecm-shortcode--reaction {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__button {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 14px;
+        border-radius: 20px;
+        border: 2px solid var(--ecm-primary);
+        background: transparent;
+        color: var(--ecm-primary);
+        cursor: pointer;
+        font-weight: 500;
+        transition: .2s;
+
+        &--active {
+            background: var(--ecm-primary);
+            color: #fff;
+        }
+
+        svg {
+            fill: #fff !important;
+            stroke: var(--ecm-primary) !important;
+
+            path {
+                stroke: var(--ecm-primary) !important;
+                fill: #fff !important;
+            }
+        }
+    }
+}

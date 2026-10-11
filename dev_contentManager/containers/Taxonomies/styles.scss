@@ -1,0 +1,13 @@
+.ecm--add-taxonomies {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    &--heading{
+       color: var(--ecm-font-color);
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 28px;
+       margin-bottom: 24px; 
+    }
+}

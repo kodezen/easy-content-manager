@@ -1,0 +1,101 @@
+.ecm-meta-box,
+.ecm-meta-box-wrapper {
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .content-manager-meta-field-container {
+        width: 100%;
+        height: 68px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #FFFFFF;
+        overflow-y: auto;
+        z-index: 9999;
+        transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+
+        .interface-interface-skeleton__sidebar:not(.is-collapsed),
+        .edit-post-layout__content:not(.is-collapsed)~& {
+            width: calc(100% - 280px);
+        }
+
+        .is-sidebar-opened & {
+            width: calc(100% - 280px);
+        }
+
+        @media (max-width: 782px) {
+            width: 100% !important;
+        }
+
+        &--open {
+            height: 90vh !important;
+
+            .interface-interface-skeleton__sidebar:not(.is-collapsed),
+            .edit-post-layout__content:not(.is-collapsed)~& {
+                width: calc(100% - 280px);
+            }
+
+            .is-sidebar-opened & {
+                width: calc(100% - 280px);
+            }
+        }
+
+        .field-editor-fields {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            overflow-y: auto;
+        }
+
+        .field-editor-header {
+            position: sticky;
+            top: 0;
+            z-index: 9999;
+            padding: 8px 24px;
+            background: #F6F7F8;
+
+            .content-manager-flex {
+                .field-editor-icon {
+                    cursor: pointer;
+                    padding: 4px;
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            &--icon-settings {
+                cursor: pointer;
+            }
+
+            &--icon-arrow-up,
+            &--icon-arrow-down {
+                border: 1px solid #999;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.content-manager-meta-field-container,
+.edit-post-visual-editor {
+    transition: height 0.3s ease-in-out;
+}
+
+.react-classic-meta {
+    padding-bottom: 24px;
+
+    .field-editor-container {
+        .field-editor-fields {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            overflow-y: auto;
+        }
+    }
+}

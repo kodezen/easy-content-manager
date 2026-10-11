@@ -1,0 +1,16 @@
+.content-manager-advanced-config-rest-api{
+    width: 100%;
+    &__content{
+        gap: 12px !important;
+    }
+    &__content-item{
+        .content-manager-input{
+            // width: calc(100% - 40%);
+        }
+    }
+    &__title{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--content-manager-warning-color);
+    }
+}

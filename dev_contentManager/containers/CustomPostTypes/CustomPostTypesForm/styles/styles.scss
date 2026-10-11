@@ -1,0 +1,63 @@
+.ecm--add-post {
+    margin-bottom: 24px;
+    padding-bottom: 0 !important;
+    border: 1px solid var(--ecm-border-color);
+    &__presets {
+        display: flex;
+        gap: 8px;
+        overflow: hidden;
+        max-width: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+            max-width 0.6s ease-in,
+            opacity 0.6s ease-in-out 0.6s,
+            visibility 0s linear 0.6s;
+
+        .content-manager-btn--presets-btn {
+            border-radius: 8px;
+            padding: 8px 12px;
+            border: none;
+            &--is-active {
+                border-radius: 8px;
+                padding: 8px 12px;
+            }
+        }
+    }
+
+    &__open {
+        display: flex;
+        gap: 8px;
+        max-width: 100%;
+        opacity: 1;
+        visibility: visible;
+        transition:
+            max-width 0.6s ease-out,
+            opacity 0.6s ease-in-out,
+            visibility 0s;
+
+        .content-manager-btn--presets-btn {
+            border-radius: 8px;
+            padding: 8px 12px;
+            box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.09);
+            border: none;
+            &--is-active {
+                border-radius: 8px;
+                padding: 8px 12px;
+            }
+        }
+    }
+
+    .content-manager-btn {
+        &--presets-btn {
+            color: #F6F6F6;
+            .easy-content-manager-icon {
+                font-size: 10px;
+            }
+        }
+        &--presets-btn-inactive {
+            border: 1px solid #fff;
+            border-radius: 4px;
+        }
+    }
+}

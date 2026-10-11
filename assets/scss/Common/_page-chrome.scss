@@ -1,0 +1,23 @@
+// Overrides for WordPress's own admin chrome (#wpbody, #wpfooter, the
+// interface-skeleton wrapper Gutenberg-style screens render into) — only
+// appropriate on ECM's own full admin screens (backend/app, block-editor,
+// classic-editor). Split out of Common/global so bundles that embed ECM's
+// field renderer inside ANOTHER plugin's own page (e.g. ecm-react-editor,
+// used by Academy's course/lesson builder) can pull in the design tokens
+// and .content-manager-* base classes from Common/global without also
+// repainting the host page's own #wpbody background or html positioning.
+#wpfooter {
+    #footer-left, #footer-upgrade {
+        color: var(--ecm-font-color);
+    }
+}
+
+#wpbody { // for full bg
+    background: var(--ecm-body-background);
+    height: max-content;
+    min-height: 100vh;
+}
+
+html.interface-interface-skeleton__html-container {
+    position: inherit !important;
+}

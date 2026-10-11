@@ -1,0 +1,5934 @@
+# Copyright (C) 2026 Kodezen
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Content Manager (ECM) 1.2.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/easy-content-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-27T17:06:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: easy-content-manager\n"
+
+#. Plugin Name of the plugin
+#: easy-content-manager.php
+msgid "Easy Content Manager (ECM)"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: easy-content-manager.php
+msgid "http://kodezen.com/easy-content-manager"
+msgstr ""
+
+#. Description of the plugin
+#: easy-content-manager.php
+msgid "Create custom post types, taxonomies without writing any PHP code."
+msgstr ""
+
+#. Author of the plugin
+#: easy-content-manager.php
+msgid "Kodezen"
+msgstr ""
+
+#. Author URI of the plugin
+#: easy-content-manager.php
+msgid "http://kodezen.com"
+msgstr ""
+
+#: addons/bookmark/ajax/toggle-bookmark.php:37
+msgid "Bookmarking is not enabled for this post type."
+msgstr ""
+
+#: addons/bookmark/ajax/toggle-bookmark.php:45
+msgid "You do not have permission to bookmark this item."
+msgstr ""
+
+#: addons/bookmark/ajax/toggle-bookmark.php:71
+msgid "Bookmark removed."
+msgstr ""
+
+#: addons/bookmark/ajax/toggle-bookmark.php:83
+msgid "Post bookmarked."
+msgstr ""
+
+#: addons/bookmark/shortcodes/bookmark-shortcode.php:74
+msgid "Please login to view bookmarks."
+msgstr ""
+
+#: addons/bookmark/shortcodes/bookmark-shortcode.php:79
+msgid "No bookmarks found."
+msgstr ""
+
+#: addons/bookmark/shortcodes/bookmark-shortcode.php:119
+msgid "bookmark"
+msgstr ""
+
+#: addons/bookmark/shortcodes/bookmark-shortcode.php:120
+msgid "bookmarks"
+msgstr ""
+
+#: addons/claim/admin/menu.php:20
+#: assets/build/backend.1.2.8.js:23
+msgid "Claims"
+msgstr ""
+
+#: addons/claim/api/claim-api.php:27
+msgid "The ID of the post being claimed."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:35
+msgid "Proof or reason for the claim."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:40
+msgid "Name of the claimant (for guests)."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:45
+msgid "Email of the claimant (for guests)."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:51
+msgid "Phone number of the claimant (for guests)."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:64
+msgid "Claim status to filter by (pending, approved, rejected, all)."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:70
+msgid "Search by name, email, or post_id."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:76
+msgid "Page number for pagination."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:82
+msgid "Number of results per page."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:96
+msgid "Claim ID to update."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:101
+msgid "New claim status (pending, approved or rejected)."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:114
+msgid "Claim ID to delete."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:140
+msgid "Invalid or missing security token."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:144
+msgid "Too many claim attempts. Please try again later."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:160
+msgid "Claiming is not enabled for this post type."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:169
+msgid "Missing required parameters."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:173
+msgid "This listing has already been claimed."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:183
+msgid "Please log in to submit a claim."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:187
+msgid "Name, email and phone are required."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:191
+msgid "A valid email address is required."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:195
+msgid "This email is already registered. Please login to claim."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:231
+msgid "Could not save claim."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:234
+msgid "Claim submitted successfully! We will review it shortly."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:306
+msgid "Invalid status provided. Status must be \"pending\", \"approved\" or \"rejected\"."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:324
+msgid "Failed to update claim status."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:331
+msgid "Claim status updated successfully."
+msgstr ""
+
+#: addons/claim/api/claim-api.php:344
+msgid "Claim deleted."
+msgstr ""
+
+#: addons/claim/shortcodes/claim-shortcode.php:74
+msgid "Please login to view claims."
+msgstr ""
+
+#: addons/claim/shortcodes/claim-shortcode.php:80
+#: assets/build/backend.1.2.8.js:23
+msgid "No claims found."
+msgstr ""
+
+#: addons/claim/shortcodes/claim-shortcode.php:114
+msgid "claim"
+msgstr ""
+
+#: addons/claim/shortcodes/claim-shortcode.php:115
+msgid "claims"
+msgstr ""
+
+#: addons/reactions/ajax/reaction-handler.php:34
+msgid "Invalid post or reaction."
+msgstr ""
+
+#: addons/reactions/ajax/reaction-handler.php:40
+msgid "Reactions are not enabled for this post type."
+msgstr ""
+
+#: addons/reactions/ajax/reaction-handler.php:46
+msgid "You must be logged in to react."
+msgstr ""
+
+#: addons/reactions/ajax/reaction-handler.php:54
+msgid "You do not have permission to react to this item."
+msgstr ""
+
+#: addons/reactions/ajax/reaction-handler.php:66
+msgid "Unknown reaction."
+msgstr ""
+
+#: addons/reactions/shortcodes/reactions-shortcode.php:68
+msgid "reaction"
+msgstr ""
+
+#: addons/reactions/shortcodes/reactions-shortcode.php:69
+msgid "reactions"
+msgstr ""
+
+#: addons/reactions/shortcodes/reactions-shortcode.php:99
+msgid "Please login to view reacted posts."
+msgstr ""
+
+#: addons/reactions/shortcodes/reactions-shortcode.php:104
+msgid "No reacted posts found."
+msgstr ""
+
+#: addons/review-and-ratings/admin/api/review-admin-api.php:242
+msgid "Review approved successfully."
+msgstr ""
+
+#: addons/review-and-ratings/admin/menu.php:20
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+msgid "Review & Ratings"
+msgstr ""
+
+#. translators: %d number of reviews
+#: addons/review-and-ratings/admin/review-display.php:56
+#, php-format
+msgid " based on %d review(s)"
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:40
+#: addons/upvote/ajax/upvote-handler.php:32
+#: includes/api/post-priority.php:224
+msgid "Invalid post."
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:44
+msgid "Reviews are not enabled for this post type."
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:62
+#: addons/review-and-ratings/post/review-submission.php:91
+#: addons/review-and-ratings/post/review-submission.php:105
+msgid "You have already submitted a review for this item."
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:77
+msgid "Name and email are required."
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:115
+msgid "Invalid rating value."
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:118
+msgid "Review text is required."
+msgstr ""
+
+#: addons/review-and-ratings/post/review-submission.php:133
+msgid "Could not save review."
+msgstr ""
+
+#: addons/review-and-ratings/shortcodes/review-shortcode.php:34
+msgid "Please log in to submit a review."
+msgstr ""
+
+#: addons/review-and-ratings/shortcodes/review-shortcode.php:152
+msgid "No user specified."
+msgstr ""
+
+#: addons/review-and-ratings/shortcodes/review-shortcode.php:157
+msgid "User not found."
+msgstr ""
+
+#: addons/review-and-ratings/shortcodes/review-shortcode.php:178
+#: templates/addons/review-and-ratings/user-reviews-list.php:87
+msgid "No reviews found."
+msgstr ""
+
+#: addons/upvote/ajax/upvote-handler.php:37
+msgid "Upvotes are not enabled for this post type."
+msgstr ""
+
+#: addons/upvote/ajax/upvote-handler.php:44
+msgid "You do not have permission to upvote this item."
+msgstr ""
+
+#: addons/upvote/ajax/upvote-handler.php:104
+msgid "You have already upvoted this."
+msgstr ""
+
+#: addons/upvote/ajax/upvote-handler.php:121
+msgid "You must be logged in to upvote."
+msgstr ""
+
+#: addons/upvote/shortcodes/upvote-shortcode.php:61
+msgid "upvote"
+msgstr ""
+
+#: addons/upvote/shortcodes/upvote-shortcode.php:62
+msgid "upvotes"
+msgstr ""
+
+#: addons/upvote/shortcodes/upvote-shortcode.php:87
+msgid "Please login to view upvoted posts."
+msgstr ""
+
+#: addons/upvote/shortcodes/upvote-shortcode.php:92
+msgid "No upvoted posts found."
+msgstr ""
+
+#: addons/view-counter/shortcodes/view-shortcode.php:49
+msgid "view"
+msgstr ""
+
+#: addons/view-counter/shortcodes/view-shortcode.php:50
+msgid "views"
+msgstr ""
+
+#: addons/white-label/ajax.php:48
+msgid "Something went wrong!!"
+msgstr ""
+
+#: includes/admin/menu.php:43
+msgid "Content Manager"
+msgstr ""
+
+#: includes/ajax/addons.php:52
+msgid "Addon Name missing"
+msgstr ""
+
+#: includes/ajax/field-group.php:85
+#: includes/ajax/field-group.php:280
+#: includes/ajax/field-group.php:300
+#: includes/ajax/field-group.php:357
+msgid "Invalid Group ID."
+msgstr ""
+
+#: includes/ajax/field-group.php:114
+msgid "Failed to duplicate field group."
+msgstr ""
+
+#: includes/ajax/field-group.php:134
+msgid "page and per_page fields are required"
+msgstr ""
+
+#: includes/ajax/field-group.php:191
+msgid "All fields are required."
+msgstr ""
+
+#: includes/ajax/field-group.php:197
+msgid "Field group creation was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/field-group.php:215
+msgid "Group name already exists. Please choose a different name."
+msgstr ""
+
+#: includes/ajax/field-group.php:237
+#: includes/ajax/post-types.php:178
+#: includes/ajax/post-types.php:396
+msgid "Failed to create post."
+msgstr ""
+
+#: includes/ajax/field-group.php:306
+msgid "Field group update was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/field-group.php:330
+#: includes/ajax/post-types.php:236
+msgid "Failed to update post."
+msgstr ""
+
+#: includes/ajax/field-group.php:353
+msgid "Field group deletion was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/field-group.php:365
+#: includes/ajax/post-types.php:262
+msgid "Failed to delete post."
+msgstr ""
+
+#: includes/ajax/field-group.php:373
+#: includes/ajax/post-types.php:268
+msgid "Post deleted successfully."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:82
+msgid "You do not have permission."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:96
+#: includes/ajax/frontend-submission.php:185
+msgid "You must be logged in."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:106
+#: includes/ajax/frontend-submission.php:196
+#: includes/api/post-priority.php:84
+msgid "Invalid post type."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:110
+#: includes/ajax/frontend-submission.php:200
+msgid "Post type not allowed."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:171
+msgid "Too many submissions. Please try again later."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:209
+msgid "You must be logged in to edit a submission."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:213
+msgid "Post title is required."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:234
+#: includes/ajax/post-types.php:297
+#: includes/ajax/post-types.php:448
+msgid "Post not found."
+msgstr ""
+
+#: includes/ajax/frontend-submission.php:238
+msgid "You cannot edit this post."
+msgstr ""
+
+#: includes/ajax/permissions.php:58
+msgid "You do not have permission to manage permissions."
+msgstr ""
+
+#: includes/ajax/post-items.php:52
+msgid "Post Item ID is required."
+msgstr ""
+
+#: includes/ajax/post-items.php:58
+msgid "Original post not found."
+msgstr ""
+
+#: includes/ajax/post-items.php:69
+msgid "You do not have permission to duplicate this item."
+msgstr ""
+
+#: includes/ajax/post-items.php:93
+msgid "Failed to duplicate post."
+msgstr ""
+
+#: includes/ajax/post-type-fields.php:61
+msgid "singular_name is required to get the post."
+msgstr ""
+
+#: includes/ajax/post-type-fields.php:74
+msgid "No post found with the given singular_name."
+msgstr ""
+
+#: includes/ajax/post-type-fields.php:107
+msgid "No field found"
+msgstr ""
+
+#: includes/ajax/post-types.php:128
+msgid "Post type slug is required."
+msgstr ""
+
+#: includes/ajax/post-types.php:134
+msgid "Post type not found."
+msgstr ""
+
+#: includes/ajax/post-types.php:147
+msgid "Post title and slug are required."
+msgstr ""
+
+#: includes/ajax/post-types.php:153
+msgid "This post type is locked and cannot be created."
+msgstr ""
+
+#: includes/ajax/post-types.php:205
+#: includes/ajax/post-types.php:256
+msgid "Custom Post not found."
+msgstr ""
+
+#: includes/ajax/post-types.php:211
+msgid "This post type is locked and cannot be updated."
+msgstr ""
+
+#: includes/ajax/post-types.php:252
+msgid "This post type is locked and cannot be deleted."
+msgstr ""
+
+#: includes/ajax/post-types.php:293
+msgid "post_id or post_title is required."
+msgstr ""
+
+#: includes/ajax/post-types.php:346
+msgid "Post ID is required."
+msgstr ""
+
+#: includes/ajax/post-types.php:352
+msgid "Invalid post or post type."
+msgstr ""
+
+#: includes/ajax/post-types.php:427
+msgid "Object Type is required."
+msgstr ""
+
+#: includes/ajax/post-types.php:431
+msgid "Object Subtype is required."
+msgstr ""
+
+#: includes/ajax/post-types.php:437
+msgid "No meta keys found for this post type."
+msgstr ""
+
+#: includes/ajax/post-types.php:453
+msgid "Invalid post status."
+msgstr ""
+
+#: includes/ajax/post-types.php:462
+msgid "Failed to update post status."
+msgstr ""
+
+#: includes/ajax/post-types.php:529
+msgid "Invalid template type."
+msgstr ""
+
+#: includes/ajax/post-types.php:533
+msgid "Post type is required."
+msgstr ""
+
+#: includes/ajax/post-types.php:537
+msgid "Current theme does not support Site Editor."
+msgstr ""
+
+#: includes/ajax/settings.php:88
+msgid "The \"slug\" field is required."
+msgstr ""
+
+#: includes/ajax/settings.php:96
+msgid "Settings creation was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/settings.php:131
+#: includes/ajax/settings.php:176
+#: includes/ajax/settings.php:226
+#: includes/ajax/settings.php:243
+msgid "Invalid settings ID."
+msgstr ""
+
+#: includes/ajax/settings.php:137
+msgid "Settings update was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/settings.php:172
+msgid "Settings deletion was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/settings.php:184
+msgid "Failed to delete the settings item."
+msgstr ""
+
+#: includes/ajax/settings.php:189
+msgid "Settings permanently deleted."
+msgstr ""
+
+#: includes/ajax/settings.php:190
+msgid "Settings moved to trash."
+msgstr ""
+
+#: includes/ajax/settings.php:249
+#: includes/ajax/settings.php:274
+msgid "Invalid option name."
+msgstr ""
+
+#: includes/ajax/settings.php:255
+#: includes/ajax/settings.php:280
+msgid "Invalid route."
+msgstr ""
+
+#: includes/ajax/settings.php:267
+msgid "Failed to save settings data."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:84
+msgid "Taxonomy slug is required."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:90
+msgid "Taxonomy creation was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:119
+msgid "Failed to create taxonomy."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:162
+#: includes/ajax/taxonomy.php:241
+#: includes/ajax/taxonomy.php:260
+msgid "Taxonomy not found."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:168
+msgid "Taxonomy update was prevented by a filter."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:218
+msgid "Failed to update taxonomy."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:237
+msgid "This taxonomy is locked and cannot be deleted."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:247
+msgid "Failed to delete taxonomy."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:251
+msgid "Taxonomy deleted."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:317
+msgid "Taxonomy ID is required."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:325
+msgid "Invalid taxonomy or post type."
+msgstr ""
+
+#: includes/ajax/taxonomy.php:353
+msgid "Failed to duplicate taxonomy."
+msgstr ""
+
+#: includes/ajax/tools.php:55
+msgid "You do not have permission to download exports."
+msgstr ""
+
+#: includes/ajax/tools.php:64
+msgid "Export file not found."
+msgstr ""
+
+#: includes/ajax/tools.php:125
+msgid "No file uploaded."
+msgstr ""
+
+#: includes/ajax/tools.php:132
+msgid "File upload failed."
+msgstr ""
+
+#: includes/ajax/tools.php:139
+#: includes/utils/import-export-helper.php:245
+msgid "Only ZIP files are allowed."
+msgstr ""
+
+#: includes/ajax/tools.php:149
+msgid "Failed to process file."
+msgstr ""
+
+#: includes/ajax/user.php:27
+msgid "Invalid user ID."
+msgstr ""
+
+#: includes/api/post-priority.php:58
+msgid "Map of post_id => priority."
+msgstr ""
+
+#: includes/api/post-priority.php:63
+msgid "Move a single post (post_id) to a target priority rank among every post of its type, shifting the rest to keep priorities unique."
+msgstr ""
+
+#: includes/api/post-priority.php:167
+msgid "Priorities must be an object of post_id => priority."
+msgstr ""
+
+#: includes/api/post-priority.php:232
+msgid "You are not allowed to edit this post."
+msgstr ""
+
+#: includes/api/post-priority.php:247
+msgid "You are not allowed to reorder this post type."
+msgstr ""
+
+#: includes/api/post-priority.php:277
+msgid "Post not found among its siblings."
+msgstr ""
+
+#: includes/api/term-priority.php:36
+#: includes/api/term-priority.php:71
+msgid "Taxonomy slug."
+msgstr ""
+
+#: includes/api/term-priority.php:42
+msgid "Current page number."
+msgstr ""
+
+#: includes/api/term-priority.php:49
+msgid "Number of terms per page."
+msgstr ""
+
+#: includes/api/term-priority.php:54
+msgid "Hide terms with no posts."
+msgstr ""
+
+#: includes/api/term-priority.php:58
+msgid "Search term name."
+msgstr ""
+
+#: includes/api/term-priority.php:76
+msgid "Map of term_id => priority."
+msgstr ""
+
+#: includes/api/term-priority.php:90
+#: includes/api/term-priority.php:117
+#: includes/api/term-priority.php:220
+msgid "Invalid taxonomy."
+msgstr ""
+
+#: includes/api/term-priority.php:228
+msgid "Priorities must be an object of term_id => priority."
+msgstr ""
+
+#: includes/api/term-priority.php:249
+msgid "Term not found."
+msgstr ""
+
+#: includes/api/term-priority.php:258
+msgid "Term does not belong to specified taxonomy."
+msgstr ""
+
+#: includes/api/term-priority.php:270
+msgid "Permission denied."
+msgstr ""
+
+#: includes/api/term-priority.php:282
+msgid "Failed to update priority."
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:105
+msgid "Something went wrong!"
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:151
+#: includes/classes/abstract-request-handler.php:154
+msgid "Invalid action."
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:169
+#: includes/classes/abstract-request-handler.php:172
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:200
+msgid "Requested method not implemented."
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:203
+msgid "Not implemented!"
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:496
+#: includes/classes/abstract-request-handler.php:509
+#: includes/classes/abstract-request-handler.php:535
+#: includes/classes/abstract-request-handler.php:548
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/classes/abstract-request-handler.php:499
+#: includes/classes/abstract-request-handler.php:512
+#: includes/classes/abstract-request-handler.php:538
+#: includes/classes/abstract-request-handler.php:551
+msgid "Insufficient permission!"
+msgstr ""
+
+#: includes/classes/capabilities.php:69
+msgid "View Content Manager"
+msgstr ""
+
+#: includes/classes/capabilities.php:70
+msgid "Open the Content Manager admin area and its dashboard."
+msgstr ""
+
+#: includes/classes/capabilities.php:73
+msgid "Manage post types"
+msgstr ""
+
+#: includes/classes/capabilities.php:74
+msgid "Create, edit, duplicate and delete custom post types."
+msgstr ""
+
+#: includes/classes/capabilities.php:77
+msgid "Manage taxonomies"
+msgstr ""
+
+#: includes/classes/capabilities.php:78
+msgid "Create, edit, duplicate and delete taxonomies."
+msgstr ""
+
+#: includes/classes/capabilities.php:81
+msgid "Manage field groups"
+msgstr ""
+
+#: includes/classes/capabilities.php:82
+msgid "Create, edit, duplicate and delete field groups and custom fields."
+msgstr ""
+
+#: includes/classes/capabilities.php:85
+msgid "Manage settings & add-ons"
+msgstr ""
+
+#: includes/classes/capabilities.php:86
+msgid "Change plugin settings, toggle add-ons and manage the licence."
+msgstr ""
+
+#: includes/classes/capabilities.php:89
+msgid "Manage tools"
+msgstr ""
+
+#: includes/classes/capabilities.php:90
+msgid "Import and export structure. Importing can overwrite existing post types and fields."
+msgstr ""
+
+#: includes/classes/capabilities.php:315
+msgid "Unknown capability."
+msgstr ""
+
+#: includes/classes/capabilities.php:323
+msgid "Administrator permissions cannot be changed."
+msgstr ""
+
+#: includes/classes/capabilities.php:332
+msgid "Unknown role."
+msgstr ""
+
+#: includes/hooks.php:128
+msgid "Term display priority/order"
+msgstr ""
+
+#: includes/post-type.php:25
+#: includes/utils/helper.php:208
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Types"
+msgstr ""
+
+#: includes/post-type.php:26
+#: assets/build/backend.1.2.8.js:19
+msgid "Post Type"
+msgstr ""
+
+#: includes/post-type.php:27
+#: includes/post-type.php:56
+#: includes/post-type.php:85
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Add New"
+msgstr ""
+
+#: includes/post-type.php:28
+msgid "Add New Post Type"
+msgstr ""
+
+#: includes/post-type.php:29
+#: assets/build/backend.1.2.8.js:23
+msgid "Edit Post Type"
+msgstr ""
+
+#: includes/post-type.php:30
+msgid "New Post Type"
+msgstr ""
+
+#: includes/post-type.php:31
+msgid "View Post Type"
+msgstr ""
+
+#: includes/post-type.php:32
+msgid "Search Post Types"
+msgstr ""
+
+#: includes/post-type.php:33
+msgid "No Post Types found"
+msgstr ""
+
+#: includes/post-type.php:34
+msgid "No Post Types found in Trash"
+msgstr ""
+
+#: includes/post-type.php:54
+#: includes/post-type.php:55
+msgid "Field Group"
+msgstr ""
+
+#: includes/post-type.php:57
+msgid "Add New Field Group"
+msgstr ""
+
+#: includes/post-type.php:58
+msgid "Edit Field Group"
+msgstr ""
+
+#: includes/post-type.php:59
+msgid "New Field Group"
+msgstr ""
+
+#: includes/post-type.php:60
+msgid "View Field Group"
+msgstr ""
+
+#: includes/post-type.php:61
+msgid "Search Field Group"
+msgstr ""
+
+#: includes/post-type.php:62
+msgid "No Field Group found"
+msgstr ""
+
+#: includes/post-type.php:63
+msgid "No Field Group found in Trash"
+msgstr ""
+
+#: includes/post-type.php:83
+#: includes/utils/helper.php:241
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Settings"
+msgstr ""
+
+#: includes/post-type.php:84
+msgid "Setting"
+msgstr ""
+
+#: includes/post-type.php:86
+msgid "Add New Setting"
+msgstr ""
+
+#: includes/post-type.php:87
+msgid "Edit Setting"
+msgstr ""
+
+#: includes/post-type.php:88
+msgid "New Setting"
+msgstr ""
+
+#: includes/post-type.php:89
+msgid "View Setting"
+msgstr ""
+
+#: includes/post-type.php:90
+msgid "Search Settings"
+msgstr ""
+
+#: includes/post-type.php:91
+msgid "No Settings found"
+msgstr ""
+
+#: includes/post-type.php:92
+msgid "No Settings found in Trash"
+msgstr ""
+
+#: includes/utils/helper.php:135
+#: assets/build/backend.1.2.8.js:1
+msgid "Dashboard"
+msgstr ""
+
+#: includes/utils/helper.php:213
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/utils/helper.php:218
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Field Groups"
+msgstr ""
+
+#: includes/utils/helper.php:229
+msgid "Add-ons"
+msgstr ""
+
+#: includes/utils/helper.php:235
+#: assets/build/backend.1.2.8.js:23
+msgid "Tools"
+msgstr ""
+
+#. translators: %s template
+#: includes/utils/helper.php:427
+#, php-format
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/utils/helper.php:444
+msgid "action_args should not be overwritten when calling ecm/get_template."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:25
+#: includes/utils/import-export-helper.php:212
+msgid "ZipArchive class is not available."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:40
+msgid "Invalid export type."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:72
+msgid "Unable to create ZIP file."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:224
+msgid "File path is required."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:231
+msgid "Invalid import type."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:237
+msgid "Invalid or unsafe file path."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:241
+msgid "File not found at the specified path."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:250
+msgid "Unable to open ZIP file."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:256
+msgid "Invalid or incompatible export file."
+msgstr ""
+
+#: includes/utils/import-export-helper.php:332
+msgid "Import completed successfully."
+msgstr ""
+
+#. translators: %s: date the listing was claimed.
+#: templates/addons/claim/claim-list.php:27
+#, php-format
+msgid "Claimed at: %s"
+msgstr ""
+
+#. translators: %s: name of the reaction the user left.
+#: templates/addons/reactions/reaction-list.php:26
+#, php-format
+msgid "Reacted: %s"
+msgstr ""
+
+#: templates/addons/review-and-ratings/review-form-default.php:97
+#: templates/addons/review-and-ratings/review-form-dropdown.php:104
+#: templates/addons/review-and-ratings/review-form-star-basis.php:40
+#: templates/addons/review-and-ratings/review-form-star-with-title.php:50
+msgid "You have already submitted a review for this post, Please wait for admin approval."
+msgstr ""
+
+#: templates/addons/review-and-ratings/review-list-carded-overview.php:14
+#: templates/addons/review-and-ratings/review-list-classic-overview.php:14
+#: templates/addons/review-and-ratings/review-list-default.php:14
+#: templates/addons/review-and-ratings/review-list-minimal-breakdown.php:14
+msgid "All Reviews"
+msgstr ""
+
+#: templates/addons/review-and-ratings/review-list-carded-overview.php:28
+#: templates/addons/review-and-ratings/review-list-classic-overview.php:28
+#: templates/addons/review-and-ratings/review-list-default.php:28
+#, php-format
+msgid "%d Reviews"
+msgstr ""
+
+#: templates/addons/review-and-ratings/user-reviews-list.php:13
+#, php-format
+msgid "Reviews by %s"
+msgstr ""
+
+#: templates/addons/review-and-ratings/user-reviews-list.php:22
+#, php-format
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/addons/review-and-ratings/user-reviews-list.php:51
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Pending"
+msgstr ""
+
+#: templates/map-field.php:36
+msgid "Address:"
+msgstr ""
+
+#: templates/true-false-field.php:25
+#: assets/build/backend.1.2.8.js:19
+msgid "True"
+msgstr ""
+
+#: templates/true-false-field.php:25
+#: assets/build/backend.1.2.8.js:19
+msgid "False"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Select or Upload Media"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Use this media"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully created item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to create item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully duplicated item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to duplicate item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Item updated successfully!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to update item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Item deleted successfully!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to delete item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Item status updated successfully!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to update item status!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully created Post!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Post type already exists"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully updated Post Status!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to update Post Status!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully updated Post!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to update Post!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully duplicated Post!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to duplicate Post!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully created field group!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to create field group!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully deleted field group!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Failed to trash item!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully updated field group!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully created Taxonomy!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully updated Taxonomy!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully duplicated Taxonomy!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Successfully deleted Taxonomy!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Settings created successfully"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Settings updated successfully"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Settings deleted successfully"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+msgid "Settings saved successfully"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "PRO"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Full screen"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Small screen"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Medium screen"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "Columns"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "Reset"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:7
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Cancel"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "Apply"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "No visible columns available!!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:1
+msgid "No Data Available!!!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "No items found"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Select…"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "10"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "15"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "20"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "25"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/frontend.1.2.8.js:1
+msgid "30"
+msgstr ""
+
+#. translators: %s: totalItems
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/frontend.1.2.8.js:4
+#, js-format
+msgid "Showing result %s out of %s"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/frontend.1.2.8.js:4
+msgid "Rows per page"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/frontend.1.2.8.js:4
+msgid "Please, create data to see the available list here."
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Feature"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Improvement"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Fix"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Security"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Removed"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "today"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "1 day ago"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "days ago"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "1 week ago"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "weeks ago"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "1 month ago"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "months ago"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "What's New"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/frontend.1.2.8.js:4
+msgid "Confirm"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/frontend.1.2.8.js:4
+msgid "Items selected"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Update"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#, js-format
+msgid "%s"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+#, js-format
+msgid "ID %d"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Search"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+msgid "Max Order"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+msgid "Per Page"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Save"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+msgid "Taxonomy Title"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Priority"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Manage List Priority"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Ascending"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Descending"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Menu Order"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Delete Permanently"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Are you sure, you want to delete these items?"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+msgid "Taxonomies Title"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Description"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Edit"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Duplicate"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Delete"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Search Items"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+#, js-format
+msgid "Add %s"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Please, create items to see the available list here."
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Set Order"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Basic"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Text"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Textarea"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Range"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Number"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Email"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Url"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Password"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Content"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Rich Text"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "File"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Single Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Video"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "oEmbed"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Relational"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Link"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Post Object"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Page Link"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "User"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choice"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Select"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Button Group"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Switch"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Checkbox"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Radio Button"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "True/False"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Advanced"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Time Picker"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Date Picker"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Date Time Picker"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Color Picker"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Icon Picker"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Map"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Layout"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Group"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Message"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Accordion"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Tab"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter Default Date Value"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter date here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter email here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Please enter a valid email address (e.g., user@domain.com)"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose your Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Upload Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter file url here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose a file from your computer"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Upload"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose a image file from your computer"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter image url here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter number here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter password here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Left"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Center"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Right"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Resize:"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Width:"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Position:"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Text Color"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Custom Hex Color:"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Please enter a valid hex color (e.g., #ff0000)"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Background Color"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Custom Hex Color or \"transparent\":"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Please enter a valid hex color (e.g., #ff0000) or \"transparent\""
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose PDF"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose Audio"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Choose Video"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Your browser does not support the audio tag."
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Back to Editor"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "</>"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Insert Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Insert Video"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "How many rows do you want?"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Please enter a valid number of rows (minimum 1)"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "How many columns do you want?"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Please enter a valid number of columns (minimum 1)"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Header"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Row"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Col"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Insert Table"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Insert PDF"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter message here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter text here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter time here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter url here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter video uel here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Select Color"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Link URL"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Link Text"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Open in new tab"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Select Link"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Insert/edit link"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Search location"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Latitude"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Latitude Here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Longitude"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Longitude Here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Selected location"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter URL here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Enter date and time"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Add "
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Remove"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "This field is required"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Image size must be less than 3 MB"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "An image is required"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+#: assets/build/wp-user.1.2.8.js:1
+msgid "Decimal number is not allowed"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+msgid "Warning"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+msgid "It looks like no fields have been added to this setting. Please create or assign fields from "
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+msgid "[Manage Fields]"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+msgid "There are no routes set up in this setting. Please create or assign routes in the "
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+msgid "Settings Builder"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+msgid "[Open Settings Builder]"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Name"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+msgid "Key"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:4
+#: assets/build/backend.1.2.8.js:19
+msgid "Add description here"
+msgstr ""
+
+#. translators: %s: type name
+#: assets/build/app.1.2.8.js:6
+#: assets/build/backend.1.2.8.js:21
+#, js-format
+msgid "Please enter a %s Name"
+msgstr ""
+
+#. translators: %s: type name
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#, js-format
+msgid "Please enter a %s key"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:23
+msgid "Slug already exists. Please use a different slug."
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+msgid "Updated successfully"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+msgid "Created successfully"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Create"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#, js-format
+msgid "%s %s"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Permalink:"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Change Permalink"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "OK"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Title"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Add item title here"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Featured Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Replace Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Add Featured Image"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "New Category Name"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Parent Category"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "— Parent Category —"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Category Added"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/ecm-react-editor.1.2.8.js:1
+#: assets/build/frontend.1.2.8.js:4
+msgid "Add New Category"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Tags"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Excerpt"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Item Category"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/frontend.1.2.8.js:4
+msgid "You have unsaved changes. Are you sure you want to leave?"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Item Organize"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Enable/Disable Comment Status"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Enable/Disable Ping Status"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Title is required"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Publish"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Draft"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Published"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Trash"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Approved"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Approve"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Processing"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Private"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Post Title"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Created At"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Updated At"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "All"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Are you sure, you want to move these item to trash!"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Restore"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Are you sure, you want to restore these items?"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Date"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Upvote"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Reactions"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:7
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Status"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Action"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Edit with WordPress"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Manage Ordering"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Upvote Details"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Reaction Details"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "New Item"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Avatar"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Username"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Anonymous Upvote Count:"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Upvote User Details"
+msgstr ""
+
+#: assets/build/app.1.2.8.js:8
+#: assets/build/backend.1.2.8.js:23
+#: assets/build/frontend.1.2.8.js:4
+msgid "Reactions User Details"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Shortcode copied to clipboard"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Taxonomies"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Welcome to Content Manager"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Create New"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Set Theme Color"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Light Mode Colors"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Primary Color"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Secondary Color"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Content Body Color"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Content Background Color"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Border Color"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Dark Mode Colors"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Permissions"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Choose what each role may do in the Content Manager. Access to the entries of a post type is controlled by that post type’s own capabilities, not here."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Capability"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "always allowed"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Permission granted."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Permission revoked."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+msgid "Inherited Post Types"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "By ticking the checkbox, the selected post types' content will be imported into the Content Manager for easier management."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Add Route"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Label"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Slug"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Only \"-\" are allowed without spaces and lowercase letters."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Icon"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Enter Dashicons class name (e.g. dashicons dashicons-admin-post)."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Learn more about Dashicons"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Create Route"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Update Route"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Add Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Option Name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Make sure to use the required prefix like ecm_ before the name."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Admin Menu Parent"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "edit.php?settings={settings_builder}"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "By default the post type will get a new top level item in the admin menu. If an existing top level item is supplied here, the post type will be added as a submenu item under it."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Menu Position"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Create Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Update Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Export Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "No route added in this settings."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Edit Route"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Delete Route"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Label and Slug is required!"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Help"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Bookmark Button"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Bookmark Badge"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Bookmark List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Bookmark Count"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Claim Button"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Claim Badge"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Claim List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Claim Count"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Reaction Button"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Reaction Count"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Reaction List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Review Form"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Review List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+msgid "View Counter"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Upvote Button"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Upvote Count"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Upvote List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+msgid "Frontend Submission"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage Claim"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select Post Types"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types to enable claim in specific post types. Default will be enabled for all post types."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "How Shortcode Work"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Just copy the shortcode and paste it where you want the feature to appear. The system automatically converts it into the actual content on the frontend, displaying it instantly without any extra setup, coding, or configuration required."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage Review & Ratings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types to enable review & ratings in specific post types. Default will be enabled for all post types."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage Bookmark"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types to enable bookmark in specific post types. Default will be enabled for all post types."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage Upvote"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Enable Anonymous Upvote"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Allow users to upvote content without creating an account."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types to enable upvote in specific post types. Default will be enabled for all post types."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage View Counter"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Enable Anonymous View Count"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Allow users to count views on content without being logged in."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select View Count Frequency"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select the frequency at which you want to count views. You can also create custom frequencies. To create custom frequencies, enter the frequency in hours as a number. like 400. It will be saved as 400 Hours."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "An icon with this name already exists."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Upload Outline"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Upload Filled"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Icon label is required"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage Reactions"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types to enable reaction in specific post types. Default will be enabled for all post types."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select Reaction Icon"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Icon Name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Filled"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Outlined"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Add Reaction"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Manage Frontend Submission"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Enable Anonymous Submission"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "This will allow you to enable submission for anonymous users."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Coming Soon"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select Submission Status"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types submission status. (e.g: Draft, Pending)"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select User Roles"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select user roles to enable frontend submission in specific user roles."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Select post types to enable frontend submission in specific post types. Default will be enabled for all post types."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Need Expert Help? Hire Our Professionals"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Get access to a skilled team of designers, developers, marketers, and content experts—ready to bring your ideas to life."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Hire Us"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "Learn More"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "never"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:1
+msgid "just now"
+msgstr ""
+
+#. translators: %d: minutes
+#: assets/build/backend.1.2.8.js:3
+#, js-format
+msgid "%d min ago"
+msgstr ""
+
+#. translators: %d: hours
+#: assets/build/backend.1.2.8.js:5
+#, js-format
+msgid "%d hr ago"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:5
+#, js-format
+msgid "%d days ago"
+msgstr ""
+
+#. translators: %d: number of log entries
+#: assets/build/backend.1.2.8.js:7
+#, js-format
+msgid "Install log (%d entries)"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Version history"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Install or roll back to any released version of this plugin."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Refreshing…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Refresh"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Loading version history…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "The license server doesn't support version history yet."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Could not load version history."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "No versions are available to install or roll back to yet."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Once the vendor publishes additional released versions, they'll appear here with Install and Roll back buttons."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "You're on the only released version. Roll back will become available once an earlier release is published."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Version"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Released"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "current"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "⚠ Breaking changes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "I understand, continue"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+#: assets/build/backend.1.2.8.js:9
+msgid "Installed"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Vendor disabled rollback to this version."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Rollback blocked"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Roll back"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Install"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Failed to fetch license status."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "License activated successfully."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Failed to activate license."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Please enter a license key."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Failed to load version history."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:7
+msgid "Starting…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:8
+#, js-format
+msgid "Rolled back to v%s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:9
+#, js-format
+msgid "Installed v%s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:9
+msgid "Install failed."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:9
+msgid "Latest"
+msgstr ""
+
+#. translators: %s: human time diff (e.g. "5 min ago")
+#: assets/build/backend.1.2.8.js:10
+#, js-format
+msgid "Checked %s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:10
+msgid "Checking…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:11
+#, js-format
+msgid "Update available: v%s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:11
+msgid "You're up to date."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:11
+msgid "Could not check for updates."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:11
+msgid "Check for updates"
+msgstr ""
+
+#. translators: %s: latest version number
+#: assets/build/backend.1.2.8.js:12
+#, js-format
+msgid "Version %s is available"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:12
+msgid "Click update to install the latest release. Your settings and data stay intact."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:12
+msgid "Installing…"
+msgstr ""
+
+#. translators: %s: target version number
+#: assets/build/backend.1.2.8.js:13
+#, js-format
+msgid "Update to %s"
+msgstr ""
+
+#. translators: %s: previously installed version number
+#: assets/build/backend.1.2.8.js:14
+#, js-format
+msgid "Quick rollback to v%s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:14
+msgid "If the latest update isn't working out, you can return to your previously installed version with one click."
+msgstr ""
+
+#. translators: %s: previously installed version number
+#: assets/build/backend.1.2.8.js:15
+#, js-format
+msgid "Roll back to v%s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Easy Content Manager Pro — License Active"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "You have access to automatic updates, priority support, and all pro tools."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Deactivating…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "License deactivated successfully."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Failed to deactivate license."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Deactivate License"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Manage License"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Failed to update opt-in setting."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Allow usage tracking to help improve Easy Content Manager Pro."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Could not save beta setting."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Receive beta updates (includes pre-release versions)."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Status:"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Active"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Last Checked:"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Refresh status"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Expires:"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "N/A"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Activation Remaining:"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:15
+msgid "Unlimited"
+msgstr ""
+
+#. translators: 1: remaining activation (limit), 2: total limit
+#: assets/build/backend.1.2.8.js:16
+#, js-format
+msgid "%1$d out of %2$s"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "WP Auto-update:"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Enabled"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Disabled"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Activate Easy Content Manager Pro for updates & support."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Activate Easy Content Manager Pro to unlock automatic updates, priority support, and all tools to create and manage content with advanced features."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Enter your license key"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Activating…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Activate License"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Don't have a license key? <PurchaseLink/>"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Purchase one here"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "1 Hour"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "6 Hours"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "12 Hours"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "1 Day"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "2 Days"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "3 Days"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "7 Days"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "14 Days"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "21 Days"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "28 Days"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "1 Month"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "3 Months"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "6 Months"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "1 year"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Lifetime"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Control what each role can do"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+msgid "Claim"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Claim management on specific content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Review & Ratings management on content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+msgid "Bookmark"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Bookmark management on content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "View Counter management on content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Upvote management on content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Reactions management on content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Frontend Submission management on content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "General"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Basic plugin settings settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Use Existing Post Types"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Setup How You Want"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+#: assets/build/backend.1.2.8.js:23
+msgid "Pro"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Manage Licenses"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Manage your licenses"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Update to Pro"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:16
+msgid "Unlock advanced features"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Validation"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Conditional Logic"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Inactive"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Location"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Fields"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Deactivate"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Activate"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "trash"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Add Field Group"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "is equal to"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "is not equal to"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Current User"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Current User Role"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Logged In"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "And"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Show this group if"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Or"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Add Rule Group"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Are you sure you want to delete this field group?"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Delete Field Group"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Advanced Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Location Rules"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Group Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Has any value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Has no value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Value is equal to"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Value is not equal to"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Value matches pattern"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Value contains"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enable"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Show this field if"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Close"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Close and Add Field"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Required"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Character Limit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Max"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enter Character Limit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Min"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "On"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Off"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "On/Off"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "ON/OFF"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select a category"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "AM"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "PM"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Time Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "AM/PM"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Media Manager"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "File URL"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "PDF"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "DOC"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "EXEL"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Any Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Size Limit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "File Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "File Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Image URL"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "JPG"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "PNG"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "GIF"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Image Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Image File Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Any format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Integer(1)"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Decimal(1.1)"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Allow Negative Number"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "DD/MM/YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "DD-MM-YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "DD.MM.YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "MM/DD/YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "MM-DD-YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "MM.DD.YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "MMMM DD, YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "MMM DD, YYYY"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "YYYY/MM/DD"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "YY.MM.DD"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "YY/MM/DD"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "YY-MM-DD"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Date Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Step"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enter Step Value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enter Your Max Size Limit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enter Your Min Size Limit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Allow Multiple"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Allow Null"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enter Max Value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Max value cannot be less than min value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Enter Min Value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Min value cannot be greater than max value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Display Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Date And Time"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select a display format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Return Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Date And Time Return Format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select a return format"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Sunday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Monday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Tuesday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Wednesday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Thursday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Friday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Saturday"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Default Value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Field Default Value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Click twice to edit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Tabs: "
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Dashicons"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Zoom level must be a number"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Zoom level cannot be more than 20"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Zoom level must be at least 1"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Sub fields"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Add"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Open"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Display this accordion as open on page load."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Multi-Expand"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Allow this accordion to open without closing others."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Endpoint"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Define an endpoint for the previous accordion to stop. This accordion will not be visible.."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Week Start On"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select Post Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Hold Ctrl/Cmd to select multiple options"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Multiple Value"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Appears when allow multiple or single"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select a taxonomy"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Appears when allow taxonomy or single"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Field Type Display"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select a field type display to apply to this field."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Add Term"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Appears when allow add term or single"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Save Terms"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Appears when allow save terms or single"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Load Terms"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Appears when allow load terms or single"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Return Array"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select a Return Array to apply to this field."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Multiple"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Page"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Allow Archives URLs"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select Multiple"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Allow content editors to select multiple values"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Top aligned "
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Left aligned "
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Placement"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "New Tab Group"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Start a new group of tabs at this tab."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Roles"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Field Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "no name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "#"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Update Field Groups"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Save Field Groups"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Group Name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "First enter a group name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Labels"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Visibility"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Sort Terms"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Whether terms in this taxonomy should be sorted in the order they are provided to `wp_set_object_terms()`."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Default Term"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Create a term for the taxonomy that cannot be deleted. It will not be selected for posts by default."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Term Name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "The name of the default term."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Term Slug"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Single word, no spaces. Underscores and dashes allowed."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Term Description"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "A descriptive summary of the term."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Enter description"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "A descriptive summary of the post type."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Menu Name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Posts"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Admin menu name for the post type."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "All Items"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "All Posts"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "In the post type submenu in the admin dashboard."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Edit Item"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Edit Post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "At the top of the editor screen when editing an item."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "View Item"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "View Post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "In the admin bar to view item when editing it."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "View Items"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "View Posts"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Appears in the admin bar in the 'All Posts' view, provided the post type supports archives and the home page is not an archive of that post type."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Add New Item"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Add New Post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "At the top of the editor screen when adding a new item."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "New Post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Parent Item Prefix"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Parent Page:"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "For hierarchical types in the post type list screen."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Search Posts"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "At the top of the items screen when searching for an item."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "No Items Found"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "No posts found"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "At the top of the post type list screen when there are no posts to display."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "No Items Found in Trash"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "No posts found in trash"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "At the top of the post type list screen when there are no posts in the trash."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Archives Nav Menu"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Archives"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Adds 'Post Type Archive' items with this label to the list of posts shown when adding items to an existing menu in a CPT with archives enabled. Only appears when editing menus in 'Live Preview' mode and a custom archive slug has been provided."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Attributes Meta Box"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Attributes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "In the editor used for the title of the post attributes meta box."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Featured Image Meta Box"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "In the editor used for the title of the featured image meta box."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Set Featured Image"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Set featured image"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used in the media frame button."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Remove Featured Image"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Remove featured image"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Use Featured Image"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Use as featured image"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used in the media frame menu."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Items List Navigation"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Posts list navigation"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used in screen reader text for the table pagination."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Items List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Posts list"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used in screen reader text for the items table."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Published"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post published."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Shown after publishing an item."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Published Privately"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post published privately."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Shown after publishing an item privately."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Reverted to Draft"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post reverted to draft."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Shown after reverting an item to draft."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Scheduled"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post scheduled."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Shown after scheduling an item."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Updated"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post updated."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Shown after updating an item."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Filter Items List"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Filter posts list"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used in screen reader text for the filter links."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Items List Table"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Posts list table"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Insert Into Item"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Insert into post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Upload to This Item"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Upload to this post"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Link"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Link"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used for sharing links."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Item Link Description"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "A link to a post."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used for describing links."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Back to Items"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "← Back to Posts"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Used in the editor toolbar."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Clear"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Regenerate all labels using the Singular and Plural labels"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Rename Capabilities"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "By default the capabilities of the post type will inherit the 'Post' capability names, eg. edit_post, delete_posts. Enable to use post type specific capabilities, eg. edit_{singular}, delete_{plural}."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Can Export"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Allow the post type to be exported from 'Tools' > 'Export'."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Delete With user"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Delete items by a user when that user is deleted."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "edit.php?post_type={parent_page}"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "menu position"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "The position in the sidebar menu in the admin dashboard."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Custom Meta Box Callback"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "A PHP function name to be called when setting up the meta boxes for the edit screen. For security, this callback will be executed in a special context without access to any superglobals like $_POST or $_GET."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Classic"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Modern"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Show In UI"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Items can be edited and managed in the admin dashboard."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Show In Admin Menu"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Admin editor navigation in the sidebar menu."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Show In Admin Bar"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Appears as an item in the 'New' menu in the admin bar."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Appearance Menus Support"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Allow items to be added to menus in the 'Appearance' > 'Menus' screen. Must be turned on in 'Screen options'"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Tag Cloud"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "List the taxonomy in the Tag Cloud Widget controls."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Quick Edit"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Show the taxonomy in the quick/bulk edit panel."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Show Admin Column"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Display a column for the taxonomy on post type listing screens."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid " Advance Settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Please enable Advanced Configuration"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid " to access these settings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "First enter a singular name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Custom fields"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#, js-format
+msgid "%s Taxonomy"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Add Taxonomy"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Singular Label"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Plural Label"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Add Slug"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Taxonomy Key"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Lower case letters, underscores and dashes only, Max 32 characters."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Select post types"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "One or many post types that can be classified with this taxonomy."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Active taxonomies are enabled and registered with WordPress."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Public"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Visible on the frontend and in the admin dashboard."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Hierarchical"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Hierarchical taxonomies can have descendants (like pages)."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Please select at least one Post Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Update Taxonomy"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Terms"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+#: assets/build/backend.1.2.8.js:23
+msgid "Export"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:19
+msgid "Create Taxonomy"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Review Details"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Name"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Author"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Details"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Are you sure you want to permanently delete this item?"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Rejected"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Claim Details"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Claimer"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Phone"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Proof"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Post ID"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Search Claims"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Reject"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Field Groups\t"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Add Post Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Portfolio"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Projects"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Team Members"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Recipes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Jobs"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Clients"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Listings"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Search…"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Please, create field group to see the available list here."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Insert New Fields"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Insert"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Comments"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Trackbacks"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Editor"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Revisions"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Page Attributes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Custom Fields"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Formats"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Supports"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Enable various features in the content editor."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "UI Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Exclude From Search"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Sets whether posts should be excluded from search results and taxonomy archive pages."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Presets"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Successfully preset added!"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Failed to add preset!"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Post Type Key"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Select Taxonomies"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Select existing taxonomies to classify items of the post type."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Active post types are enabled and registered with WordPress."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Hierarchical post types can have descendants (like pages)."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "First save the post type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Add a field first"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Save As Field Group"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Add From Existing Field Group"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Please enter a Plural label"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Please enter a Singular label"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Please enter a Post Type Key"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "You must enable advanced configuration to use taxonomies."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Update Post Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+#, js-format
+msgid "%s Post Type"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Let users upvote posts or content they find helpful or relevant."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "View Count"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Automatically track and display how many times each post is viewed."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Allow users to save and revisit their favorite posts anytime."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Add emoji-style reactions to let users quickly express their feelings."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Let authors claim ownership of their content with verification."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Allow users to leave detailed reviews with ratings and comments."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "White Label"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Customize branding by removing plugin identity and using your own."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Coming soon"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "AI"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Integrate AI tools to suggest, write, or improve your post content."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Allow users to submit content directly from the frontend, no login needed."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Available in pro"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Addons"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export/Import"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export/Import your data"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Shortcodes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Manage and copy functional shortcodes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Display Shortcodes"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Quickly copy and paste shortcodes to display interactive features anywhere on your site."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export all post types and taxonomies in one zip file with .json format."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export all post types and their posts in one zip file with .json format."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export all field groups in one zip file with .json format."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export all taxonomies in one zip file with .json format."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export all settings in one zip file with .json format."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Export all custom settings in one zip file with .json format that you built from settings builder."
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Import"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+#, js-format
+msgid "Post Types %s, Posts %s, Taxonomies %s, Settings %s are exported"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid "Drag and drop files here"
+msgstr ""
+
+#: assets/build/backend.1.2.8.js:23
+msgid ".zip up to 5MB"
+msgstr ""
+
+#: assets/build/block-editor.1.2.8.js:1
+#: assets/build/classic-editor.1.2.8.js:1
+msgid "Please fill all required fields before publishing."
+msgstr ""
+
+#: assets/build/frontend.1.2.8.js:1
+msgid "Claim submitted successfully!"
+msgstr ""
+
+#: assets/build/frontend.1.2.8.js:1
+msgid "Claim Submission"
+msgstr ""
+
+#: assets/build/frontend.1.2.8.js:4
+msgid "Successfully upvoted!"
+msgstr ""
+
+#: assets/build/frontend.1.2.8.js:4
+msgid "Successfully removed upvote!"
+msgstr ""

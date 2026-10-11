@@ -1,0 +1,27 @@
+.ecm--advanced-config--general {
+    min-height: 372px;
+    max-height: 372px;
+    overflow-y: scroll;
+    &__description {
+        padding: 12px 12px;
+        border-top: 1px solid var(--ecm-border-color);
+        .content-manager-input {
+            margin: 6px 0 14px 0;
+        }
+    }
+
+    &__supports-content {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 16px;
+        column-gap: 24px;
+        padding: 18px 0 0 0;
+        .ecm-checkbox {
+            gap: 8px;
+            .ecm-checkbox  {
+                margin-top: 4px;
+            }
+        }
+    }
+}

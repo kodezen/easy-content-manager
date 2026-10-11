@@ -1,0 +1,164 @@
+.ecm-editor-btn {
+    border: none;
+    background: #FFECCA;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.ecm-number-btn, .ecm-list-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+// Color picker
+.ecm-editor-btn-color-picker {
+    border: none;
+    background: #FFECCA;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    &__bg {
+        margin-left: 8px;
+    }
+}
+
+.ecm-editor-color-picker {
+    position: relative;
+    display: inline-block;
+    &__dropdown {
+        background: #fff;
+        position: absolute;
+        top: 36px;
+        left: 0;
+        z-index: 1000;
+        background: '#fff';
+        border: 1px solid var(--ecm-border-color);
+        border-radius: 6px;
+        padding: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        min-width: 240px;
+        max-width: 280px;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        padding: 6px 8px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        font-size: 12px;
+    }
+
+    &__label {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+    }
+
+    &__inner {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0),
+            linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0);
+        background-size: 4px 4px;
+        background-position: 0 0, 2px 2px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    &__colors {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 2px;
+        margin-bottom: 12px;
+    }
+
+    &__color {
+        width: 20px;
+        height: 20px;
+        background-color: var(--box-color);
+        border: 1px solid #dadce0;
+        border-radius: 2px;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.1s ease;
+    }
+
+    &__selected {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    &__custom-wrap {
+        border-top: 1px solid #e8eaed;
+        padding-top: 12px;
+        margin-top: 8px;
+    }
+
+    &__custom {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 12px;
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #3c4043;
+        transition: all 0.1s ease;
+    }
+
+    &__set-color {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    &__color-input {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #dadce0;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    &__custom-input {
+        flex: 1;
+        padding: 6px 8px;
+        font-size: 12px;
+        border: 1px solid #dadce0;
+        border-radius: 4px;
+        outline: none;
+    }
+}
+// Color picker
+
+// Default styles modifier for react-simple-wysiwyg
+.rsw-ce {
+    min-height: 240px;
+    max-height: 500px;
+    &:focus {
+        outline: none !important;
+    }
+}
+
+.rsw-toolbar {
+    flex-wrap: wrap;
+    row-gap: 8px;
+}

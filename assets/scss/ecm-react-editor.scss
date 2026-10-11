@@ -1,0 +1,16 @@
+// This bundle mounts ECM's field/taxonomy renderer inside ANOTHER plugin's
+// own admin page (via the `ecm.react-editor.register-custom-field` /
+// `-register-taxonomy` JS hooks — see ReactEditor/ReactEditorHook.js), not
+// inside ECM's own admin chrome. `ReactEditor/index.js` only pulls in a
+// handful of its own field-level overrides (styles.scss); without the
+// --ecm-* design tokens and .content-manager-* base classes every field
+// component renders against (both normally shipped together via
+// Common/global on ECM's own screens — see block-editor.scss /
+// classic-editor.scss / backend.scss), every field/taxonomy widget here
+// renders as bare, unstyled HTML on the host page.
+//
+// Deliberately NOT importing Common/page-chrome here: those rules target
+// #wpbody / #wpfooter / html.interface-interface-skeleton__html-container
+// globally and are only correct on ECM's own full-page screens — pulling
+// them in here would repaint the HOST plugin's own page chrome.
+@import './Common/global';

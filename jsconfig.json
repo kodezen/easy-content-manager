@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": "dev_contentManager",
+      "paths": {
+        "@ECMComponents/*": ["components/*"],
+        "@ECMContainers/*": ["containers/*"],
+        "@ECMRedux/*": ["redux/*"],
+        "@ECMUtils/*": ["utils/*"],
+        "@ECMHooks/*": ["hooks/*"],
+      }
+    },
+    "include": ["dev_contentManager"]
+  }

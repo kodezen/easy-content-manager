@@ -1,0 +1,82 @@
+#adminmenu {
+    .wp-submenu-wrap {
+        li {
+            &.current>a {
+                color: #fff;
+                font-weight: 600;
+
+                .content-manager-icon {
+                    rotate: 90deg;
+                }
+            }
+
+            &:not(.current) {
+                &:focus {
+                    color: rgba(240, 246, 252, 0.7) !important;
+                }
+            }
+
+            a {
+                .content-manager-icon {
+                    margin-left: auto;
+                    float: right;
+
+                    &::before {
+                        font-size: 8px;
+                    }
+                }
+
+                &[href*="admin.php?page=easy-content-manager-addons"] {
+                    color: #FDB022 !important;
+                    &:hover {
+                        color: #FDB022 !important;
+                    }
+                }
+            }
+
+            ul.wp-submenu {
+                padding: 0 !important;
+                margin: 0 !important;
+
+                li {
+                    position: relative;
+
+                    a {
+                        font-size: 13px;
+                        line-height: 1.4;
+                        font-weight: 400;
+                        color: rgba(240, 246, 252, 0.7) !important;
+                        box-shadow: none;
+
+                        &::before {
+                            content: "↳";
+                            padding: 0 5px;
+                            color: rgba(240, 246, 252, 0.7);
+                        }
+
+                        &:hover {
+                            font-weight: 400;
+                            box-shadow: none;
+                        }
+
+                        &:focus {
+                            color: rgba(240, 246, 252, 0.7) !important;
+                        }
+
+                    }
+
+                    &.current {
+                        a {
+                            color: #fff !important;
+                            font-weight: 500;
+
+                            &::before {
+                                color: #E1E3EA;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

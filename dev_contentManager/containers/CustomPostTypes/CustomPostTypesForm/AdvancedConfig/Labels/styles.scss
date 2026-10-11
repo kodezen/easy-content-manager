@@ -1,0 +1,13 @@
+.ecm--advance-config {
+    &--label-input {
+        width: 100%;
+        position: relative;
+    }
+
+    &--label-input-tooltip {
+        position: absolute;
+        top: 50%;
+        right: 0.5rem;
+        transform: translateY(-50%);
+    }
+}

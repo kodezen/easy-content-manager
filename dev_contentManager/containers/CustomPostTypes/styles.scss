@@ -1,0 +1,27 @@
+.ql-editor {
+    height: 400px;
+}
+
+.content-manager-import{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 4px;
+}
+
+.ecm-table__row-cell{
+    .content-manager-flex{
+        .content-manager-btn{
+            &--item-edit, &--wp-edit{
+                .easy-content-manager-icon--edit-two, svg{
+                    font-weight: 600;
+                }
+                padding: 8px 12px;
+                border: 1px solid var(--content-manager-border-color);
+                border-radius: 4px;
+            }
+        }
+    }
+}

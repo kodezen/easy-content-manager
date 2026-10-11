@@ -1,0 +1,12 @@
+.DS_Store
+/.DS_Store/
+node_modules/
+/vendor/
+!assets/scss/vendor
+package-lock.json
+assets/build/*.txt
+.git
+**/*.map
+composer.phar
+.idea
+.vscode

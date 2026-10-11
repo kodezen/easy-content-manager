@@ -1,0 +1,38 @@
+:root {
+    --ecm-font: "Inter", sans-serif;
+        // for light
+    --ecm-primary: #4038CA;
+    --ecm-border-color: #DDDDDF;
+    --ecm-body-background: #f7f7f7;
+    --ecm-background: #fff;
+    --ecm-font-color: #141A24;
+    --ecm-secondary: #F6F7F8;
+    --ecm-warning: #F15B50;
+    --ecm-text-muted: #738496;
+    --ecm-placeholder: #A2ADB9;
+    --ecm-shadow: 0px 0px 1px 0px rgba(20, 26, 36, 0.20), 0px 1px 2px 0px rgba(20, 26, 36, 0.10);
+    --ecm-shadow-2: 0px 0.5px 2px 0px rgba(16, 24, 40, 0.15);
+    --ecm-gray: #BAC2CB;
+}
+
+.easy-content-manager-icon {
+    &::before {
+        color: var(--ecm-font-color);
+    }
+
+    &.has-ecm-blue-bg::before {
+        color: #fff;
+    }
+    &.has-ecm-muted-bg::before {
+        color: #222;
+    }
+    &.ecm-primary::before {
+        color: #4F46E5;
+    }
+    &.ecm-muted::before {
+        color: var(--ecm-text-muted);
+    }
+}
+
+@import "../common/_classesLibrary.scss";
+@import "./editor";

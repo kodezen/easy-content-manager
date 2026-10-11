@@ -1,0 +1,124 @@
+.ecm-whats-new {
+    background: var(--ecm-background);
+    color: var(--ecm-font-color);
+    box-shadow: var(--ecm-shadow);
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--ecm-border-color);
+    }
+
+    &__body {
+        padding: 16px 20px;
+    }
+
+    &__meta {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+
+    &__age {
+        font-size: 11px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--ecm-text-muted);
+    }
+
+    &__dot {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: var(--ecm-border-color);
+    }
+
+    &__version {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--ecm-primary);
+    }
+
+    &__section {
+        margin-top: 16px;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    &__section-label {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--ecm-text-muted);
+        margin-bottom: 8px;
+
+        &::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--ecm-border-color);
+        }
+    }
+
+    &__items {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__item {
+        position: relative;
+        font-size: 13.5px;
+        line-height: 1.55;
+        padding-left: 0;
+    }
+
+    &__tag {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 600;
+        padding: 1px 6px;
+        border-radius: 4px;
+        margin-right: 6px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        vertical-align: middle;
+
+        &--added {
+            background: rgba(0, 173, 107, 0.1);
+            color: #00ad6b;
+        }
+
+        &--changed {
+            background: rgba(123, 104, 238, 0.1);
+            color: #7b68ee;
+        }
+
+        &--fixed {
+            background: rgba(253, 176, 34, 0.15);
+            color: #b4780a;
+        }
+
+        &--security {
+            background: rgba(241, 91, 80, 0.1);
+            color: var(--ecm-warning);
+        }
+
+        &--removed {
+            background: rgba(115, 132, 150, 0.15);
+            color: var(--ecm-text-muted);
+        }
+    }
+}

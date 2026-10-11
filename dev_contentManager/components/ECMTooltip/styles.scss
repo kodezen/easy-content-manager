@@ -1,0 +1,103 @@
+.ecm-tooltip {
+    display: inline-block;
+    position: relative;
+    &__box {
+        position: absolute;
+        background: var(--ecm-primary);
+        color: #fff;
+        padding: 8px 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        z-index: 100;
+        transition: opacity 0.2s;
+        max-width: 400px;
+        z-index: 9999;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        &--top {
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 8px;
+        }
+        &--right {
+            top: 50%;
+            left: 100%;
+            transform: translateY(-50%);
+            margin-left: 8px;
+        }
+        &--bottom {
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 8px;
+        }
+        &--left {
+            top: 50%;
+            right: 100%;
+            transform: translateY(-50%);
+            margin-right: 8px;
+        }
+        &--top-left {
+            bottom: 100%;
+            left: 0;
+            margin-bottom: 8px;
+        }
+        &--top-right {
+            bottom: 100%;
+            right: -8px;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__arrow {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-style: solid;
+        &--top {
+            top: 100%;
+            left: 50%;
+            border-width: 5px 5px 0 5px;
+            border-color: var(--ecm-primary) transparent transparent transparent;
+            transform: translateX(-50%);
+        }
+        
+        &--right {
+            top: 50%;
+            left: -5px;
+            border-width: 5px 5px 5px 0;
+            border-color: transparent var(--ecm-primary) transparent transparent;
+            transform: translateY(-50%);
+        }
+
+        &--bottom {
+            bottom: 100%;
+            left: 50%;
+            border-width: 0 5px 5px 5px;
+            border-color: transparent transparent var(--ecm-primary) transparent;
+            transform: translateX(-50%);
+        }
+
+        &--left {
+            top: 50%;
+            right: -5px;
+            border-width: 5px 0 5px 5px;
+            border-color: transparent transparent transparent var(--ecm-primary);
+            transform: translateY(-50%);
+        }
+
+        &--top-left {
+            top: 100%;
+            left: 10px;
+            border-width: 5px 5px 0 5px;
+            border-color: var(--ecm-primary) transparent transparent transparent;
+        }
+
+        &--top-right {
+            top: 100%;
+            right: 10px;
+            border-width: 5px 5px 0 5px;
+            border-color: var(--ecm-primary) transparent transparent transparent;
+        }
+    }
+}

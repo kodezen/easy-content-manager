@@ -1,0 +1,32 @@
+.ecm--field-group-settings-conditions {
+    margin-top: 8px;
+
+    &:first-of-type {
+        margin-top: 0px;
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        position: relative;
+
+        .content-manager-btn {
+            transition: all 0.3s ease;
+        }
+    }
+
+    &__remove {
+        opacity: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    &:hover {
+        .ecm--field-group-settings-conditions__actions {            
+            .ecm--field-group-settings-conditions__remove {
+                opacity: 1;
+            }
+        }
+    }
+}

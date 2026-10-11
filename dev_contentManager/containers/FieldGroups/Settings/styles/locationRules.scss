@@ -1,0 +1,11 @@
+.ecm--location {
+    &__or {
+        text-align: left;
+        text-transform: uppercase;
+        color: var(--ecm-font-color);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin: 0;
+    }
+}

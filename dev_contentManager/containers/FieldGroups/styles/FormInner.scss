@@ -1,0 +1,30 @@
+.ecm-field-group-name {
+    width: 320px;
+    border: 1px solid var(--ecm-border-color);
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 4px;
+    margin: 0;
+    &:hover, &:focus, &:focus-within, &:focus-visible, &:active {
+        border: 1px solid var(--content-manager-primary-color) !important;
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}
+
+.ecm--field-groups {
+    border: 1px solid var(--ecm-border-color);
+    border-radius: 4px;
+    &__actions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .content-manager-btn {
+        &--fields-collapse {
+            padding: 8px;
+            border-radius: 50%;
+        }
+    }
+}

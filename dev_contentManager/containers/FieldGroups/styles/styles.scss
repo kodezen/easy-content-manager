@@ -1,0 +1,7 @@
+.content-manager-topbar {
+    &__entry-left {
+        .content-manager-input {
+            width: calc(100% - 80%);
+        }
+    }
+}

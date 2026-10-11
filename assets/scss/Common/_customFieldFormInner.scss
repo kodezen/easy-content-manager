@@ -1,0 +1,74 @@
+.ecm--custom-field-form-inner {
+    &__add-custom-field {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 24px;
+        border: 1px solid var(--ecm-border-color);
+        border-radius: 4px;
+        position: relative;
+        background: var(--ecm-background);
+    }
+
+    &__add-custom-field-has {
+        border-radius: 4px 4px 0 0 !important;
+    }
+
+    &__custom-fields-menu {
+        position: absolute;
+        right: 5%;
+        top: 64px;
+        background: var(--ecm-background);
+        box-shadow: 0px 12px 24px -4px rgba(16, 24, 40, 0.08);
+        border: 1px solid var(--ecm-border-color);
+        border-radius: 4px;
+        padding: 8px;
+    }
+
+    .content-manager-btn {
+        &--save-as-field-group {
+            margin-bottom: 8px;
+            width: 100%;
+            justify-content: flex-start;
+        }
+
+        &--fields-collapse {
+            padding: 8px;
+            border-radius: 50%;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.content-manager-react-modal--content-small {
+    display: flex;
+    flex-direction: column;
+    .content-manager-search-component {
+        width: 100%;
+        &__input {
+            max-width: 100% !important;
+        }
+    }
+
+    .easy-content-manager-field-groups {
+        border: 1px solid var(--ecm-border-color);
+        border-radius: 8px;
+        padding: 16px;
+        margin-top: 16px;
+        overflow-y: auto;
+        max-height: 300px;
+    }
+}
+
+.ecm--custom-fields-field + .ecm--add-post__custom-fields{
+    width: calc(100% - 32px);
+    .ecm--add-post__add-custom-field{
+        margin-top: 0 !important;
+    }
+}

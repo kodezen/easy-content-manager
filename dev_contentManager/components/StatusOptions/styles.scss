@@ -1,0 +1,81 @@
+
+.content-manager-dropdown-option {
+    position: relative;
+    cursor: pointer;
+    padding: 8px 12px !important;
+    border-radius: 999px;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 125px;
+    span.label {
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &--completed, &--publish, &--approved, &--pass {
+        color: #00AD6B;
+        border: none;
+        background: rgba(36, 161, 72, 0.1);
+    }
+    &--processing, &--pending, &--submitted {
+        color: #FDB022;
+        border: none;
+        background: rgba(236, 152, 20, 0.12);
+    }
+    &--draft, &--private {
+        color: var(--ecm-font-color);
+        border: none;
+        background: rgba(114, 114, 114, .12);   
+    }
+    &--cancel,&--trash, &--failed {
+        color: #FF4D4D;
+        border: none;
+        background: rgba(244, 72, 63, 0.12);
+    }
+    .easy-content-manager-icon--angle-down {
+        pointer-events: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before{
+            font-size: 20px;
+        }
+    }
+    &__lists {
+        .content-manager-more-status-options {
+            position: relative;
+            min-width: 175px;
+            z-index: 99999;
+            border-radius: 4px;
+            background: var(--ecm-background);
+            margin: 0;
+            padding: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: var(--ecm-border-color);
+            box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 1px;
+            
+            &__item{
+                display: flex;
+                color: var(--ecm-font-color);
+                background: var(--ecm-background);
+                font-size: 12px;
+                font-weight: 500;
+                border: none;
+                border-radius: 6px;
+                padding: 8px 15px;
+                margin-bottom: 5px;
+                cursor: pointer;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover, &.active {
+                    background: var(--ecm-body-background);
+                    color: var(--ecm-font-color);
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}

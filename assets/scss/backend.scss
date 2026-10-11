@@ -1,0 +1,27 @@
+@import './Common/global';
+@import './Common/page-chrome';
+
+a {
+    color: var(--ecm-font-color);
+    &:hover, &:focus {
+        color: var(--ecm-primary);
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}
+
+input, textarea, select {
+    color: #1C1F22;
+    font-family: var(--contentManager-primary-font);
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+@import './Common/reset';
+@import './Common/listTable';
+@import './Common/button';
+@import './Common/tab-panel';
+@import './Common/customFieldFormInner';
+@import './backend/admin-menu';

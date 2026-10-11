@@ -1,0 +1,126 @@
+.content-manager-gallery {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-bottom: 8px;
+    }
+    
+    &__action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image {
+        position: relative;
+        overflow: hidden;
+        user-select: none;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+            object-fit: fill;
+            cursor: move;
+        }
+
+        &:hover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(16, 24, 40, 0.15); 
+            z-index: 1;
+            border-radius: 4px;
+        }
+
+        .content-manager-btn, .easy-content-manager-icon--drag {
+            display: none;
+            z-index: 2;
+        }
+
+        &:hover .content-manager-btn, &:hover .easy-content-manager-icon--drag {
+            display: block;
+        }
+
+        .easy-content-manager-icon--drag {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            cursor: pointer;
+            z-index: 2;
+        }
+    }
+
+    &__feature-image {
+        // flex: 0 0 31%;
+        position: relative;
+        cursor: move;
+        .content-manager-gallery__feature-label {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--content-manager-primary-color-100);
+            color: var(--content-manager-primary-color);
+            border-radius: 4px;
+            padding: 4px 6px;
+            z-index: 3; 
+        }
+
+        img {
+            width: 100%;
+            height: 80%;
+            border-radius: 4px;
+            object-fit: fill;
+            cursor: move;
+        }
+
+        
+        .content-manager-btn {
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            z-index: 2;
+            &--delete {
+                padding: 4px;
+            }
+        }
+
+        .easy-content-manager-icon--drag {
+            cursor: move;
+        }
+        .easy-content-manager-icon--close {
+            pointer-events: none;
+            cursor: pointer;
+        }
+    }
+
+    &__all-image {
+        flex: 0 0 31%;
+        position: relative;
+        cursor: move;
+        img {
+            border-radius: 4px;
+            object-fit: fill;
+            cursor: move;
+        }
+
+        .content-manager-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            &--delete {
+                padding: 4px;
+            }
+        }
+
+        .easy-content-manager-icon--drag {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            cursor: move;
+        }
+    }
+}
